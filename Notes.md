@@ -1,3 +1,4 @@
+# SMART GRABS BELOW
 ### HOW TO CHANGE YOUR NAME FROM THE COMMAND LINE TO GITHUB
 - git config user.name "New Name"
 ### SOME WORKABLE COMMANDS NEEDED FOR PERFORMANCE IN SHELL
@@ -83,6 +84,6 @@
  - CTRL+W # kills the word behind the cursor
  - CTRL+Y # retrieves last deleted string
  - CTRL+Z # stops the current command, resume with fg in the foreground or bg in the background
-# SHELL TUTORIALS
+# SHELL TUTORIALS PROPER
 ##### WHAT IS SHELL
 -> 
