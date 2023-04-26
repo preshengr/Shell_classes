@@ -86,4 +86,9 @@
  - CTRL+Z # stops the current command, resume with fg in the foreground or bg in the background
 # SHELL TUTORIALS PROPER
 ##### WHAT IS SHELL
--> 
+-> Shell takes commands from the keyboard and give them to the operating system to perform. Shells are known as command line interface. CLI's
+
+- For Study and clarity sake we will be learning with the unix system (Linux). In the shell a program called BASH (Bourne Again SHell) is used in written commands to the computer system. Theere are other programs called KSH, TCSH & ZSH these are also on the availbale on the Linux systems. It is important to note that the BASH is the enhanced version of the former version of the unix shell program SH.
+
+##### A TERMINAL
+-> This is a program that opens a window and lets you interact with the shell. There are many terminals though like the gnome-terminal, konsole, xterm, rxvt, kvt, nxterm, and eterm they are all included in some Linux distributions.
