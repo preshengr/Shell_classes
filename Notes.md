@@ -63,7 +63,7 @@
 - wc # print newline, word, and byte counts for each file
 - xargs # build and execute command lines from standard input
 - | # redirect standard output to another command
-- > # redirect standard output
+- ~> # redirect standard output
 - < # redirect standard input
 - & # send process to background
 ### IMPORTANT SHORCUTS
