@@ -102,7 +102,7 @@
 - LS: which means List files and Directories.
 
 #### FILE SYSTEM ORGANIZATION
-- The files of a linusx system is arranged in what is called Hierarchical Directory Structure. They are organised like a tree.
-- Linux system does no use drive letters to indicate location of directories like in windows.
+* The files of a linusx system is arranged in what is called Hierarchical Directory Structure. They are organised like a tree.
+* Linux system does no use drive letters to indicate location of directories like in windows.
 * It is expidient to note that "One important difference between Windows and Unix-like operating systems such as Linux is that Linux does not employ the concept of drive letters. While Windows drive letters split the file system into a series of different trees (one for each device), Linux always has a single tree. Different storage devices may be different branches of the tree, but there is always just a single tree".
 
