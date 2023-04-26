@@ -92,3 +92,17 @@
 
 ##### A TERMINAL
 -> This is a program that opens a window and lets you interact with the shell. There are many terminals though like the gnome-terminal, konsole, xterm, rxvt, kvt, nxterm, and eterm they are all included in some Linux distributions.
+
+-> In shell there is availablity for command history. this was inserted to help users not to repeat the process of typing the commands over and over again. It is expedient to know that when you handle this command history, once the terminal closes the history is lost.
+
+#### NAVIGATION
+-> There are 3 basic commands used in navigating the linux environs
+- CD: which means Change Directory
+- PWD: which means Print Working Dir (note that DIR is same thing as Directory)
+- LS: which means List files and Directories.
+
+#### FILE SYSTEM ORGANIZATION
+- The files of a linusx system is arranged in what is called Hierarchical Directory Structure. They are organised like a tree.
+- Linux system does no use drive letters to indicate location of directories like in windows.
+It is expidient to note that "One important difference between Windows and Unix-like operating systems such as Linux is that Linux does not employ the concept of drive letters. While Windows drive letters split the file system into a series of different trees (one for each device), Linux always has a single tree. Different storage devices may be different branches of the tree, but there is always just a single tree".
+
