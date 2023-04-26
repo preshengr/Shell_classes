@@ -1,0 +1,3 @@
+HOW TO CHANGE YOUR NAME FROM THE COMMAND LINE TO GITHUB
+git config user.name "New Name"
+=============================
