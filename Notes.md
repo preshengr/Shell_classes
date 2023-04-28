@@ -107,6 +107,9 @@ There are 3 basic commands used in navigating the linux environs
 * It is expidient to note that "One important difference between Windows and Unix-like operating systems such as Linux is that Linux does not employ the concept of drive letters. While Windows drive letters split the file system into a series of different trees (one for each device), Linux always has a single tree. Different storage devices may be different branches of the tree, but there is always just a single tree".
 
 #### PWD (PRINT WORKING DIRECTORY)
-* The 'pwd' Command allows you to print the current working directory. it is very important because it helps us know exactly where we are in the linux system.
-  * To use this command we simply type:
-	'pwd' and Press enter on the keyboard.
+The 'pwd' Command allows you to print the current working directory. it is very important because it helps us know exactly where we are in the linux system.
+  * To use this command we simply type: 'pwd' then Press enter on the keyboard.
+
+#### CD (CHANGE DIRECTORY)
+The 'cd' command is used to change working directory either forward or backward depending on where you want to be at a given time.
+This command is typed followed by the pathname we would like to move to or simply put the directory we would like to work in.
