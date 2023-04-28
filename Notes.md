@@ -96,7 +96,7 @@
 -> In shell there is availablity for command history. this was inserted to help users not to repeat the process of typing the commands over and over again. It is expedient to know that when you handle this command history, once the terminal closes the history is lost.
 
 #### NAVIGATION
--> There are 3 basic commands used in navigating the linux environs
+There are 3 basic commands used in navigating the linux environs
 - CD: which means Change Directory
 - PWD: which means Print Working Dir (note that DIR is same thing as Directory)
 - LS: which means List files and Directories.
@@ -108,4 +108,5 @@
 
 #### PWD (PRINT WORKING DIRECTORY)
 * The 'pwd' Command allows you to print the current working directory. it is very important because it helps us know exactly where we are in the linux system.
-  * To use this command we simply type: 'pwd' and Press enter on the keyboard.
+  * To use this command we simply type:
+	'pwd' and Press enter on the keyboard.
