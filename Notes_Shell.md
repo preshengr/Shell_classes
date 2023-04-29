@@ -151,9 +151,7 @@ The 'LS' can be used in different ways but to mention a few here are they.
 | COMMAND | RESULT |
 | ------- | ------ |
 | ls      | List the files in the working directory |
-| ------- | ------ |
-#######
-
+#
 | Tasks | Files | Description |
 | ----- | ----- | ------ |
 | 0: Authors/README File | [AUTHORS](https://github.com/justinmajetich/AirBnB_clone/blob/dev/AUTHORS) | Project authors |
