@@ -146,6 +146,5 @@ We will be looking into certain commands that will help us access certain things
 * FILE (Classify a file's contents)
 
 #### LS (LIST)
-```
 This command is used to list contents of a directory.
 The 'LS' can be used in different ways but to mention a few here are they.
