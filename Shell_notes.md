@@ -121,26 +121,3 @@ This command is typed followed by the pathname we would like to move in or the d
 It is expedient to note that the (dot dot) allows you to return one directory backwards to the parent directory. You can return to a previous directory by using an absolute pathname like "cd /usr 'This is good if you still know the name of the directory you are returning to.
 * You can also move into a directory with the relative pathname.
 	* cd ./bin (this eludes everyother step and moves into the directory named.
-Take Note: Though Linux supports long file names which may contain embedded spaces and punctuation characters, limit the punctuation characters to period, dash, and underscore. Most importantly, do not embed spaces in file names. If you want to represent spaces between words in a file name, use underscore characters. You will thank yourself later.
-#### LS (LIST)
-This command lists the name of files and directory in a working directory this means, if we are in an active directory called 'Smart" and there are directories in them with some files, the only way to know them is by listing them with a special notation.
-	* ls -a
-This command lists the name of directories and files but also lists the hidden files and directories also.
-# LOOKING AROUND
-We will be looking into certain commands that will help us access certain things on the linux system.
-* ls (list files and directories)
-* Less (view test files)
-* file (Classify a file's contents)
-
-#### LS (LIST)
-This command is used to list contents of a directory.
-The 'LS' can be used in different ways but to mention a few here are they:
-||
-| COMMAND | RESULT|
-||
-| ls | List the files in the working directory |
-| ls /bin | List the files in the /bin directory (or any othere directory you need to specify |
-| ls -l | List the files in the working directory in long format |
-| ls -l /etc /bin | List the files in the /bin directory and the /etc directory in long format |
-| ls -l . . | List the files (even ones with names beginning with a period character, which are normally hidden) in the parent of the working directory in long format |
-||
