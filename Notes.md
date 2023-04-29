@@ -112,4 +112,4 @@ The 'pwd' Command allows you to print the current working directory. it is very 
 
 #### CD (CHANGE DIRECTORY)
 The 'cd' command is used to change working directory either forward or backward depending on where you want to be at a given time.
-This command is typed followed by the pathname we would like to move to or simply put the directory we would like to work in.
+This command is typed followed by the pathname we would like to move in or the directory we would like to work in.
