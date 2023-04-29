@@ -1,7 +1,10 @@
 # SMART GRABS BELOW
 ### HOW TO CHANGE YOUR NAME FROM THE COMMAND LINE TO GITHUB
+```
 - git config user.name "New Name"
+```
 ### SOME WORKABLE COMMANDS NEEDED FOR PERFORMANCE IN SHELL
+```
 - awk # pattern scanning and processing language
 - basename # strip directory and suffix from filenames
 - bg # resumes suspended jobs without bringing them to the foreground
@@ -67,7 +70,9 @@
 - ~> # redirect standard output
 - < # redirect standard input
 - & # send process to background
+```
 ### IMPORTANT SHORCUTS
+```
  - CTRL+A # go to beginning of line
  - CTRL+B # moves backward one character
  - CTRL+C # stops the current command
@@ -84,6 +89,7 @@
  - CTRL+W # kills the word behind the cursor
  - CTRL+Y # retrieves last deleted string
  - CTRL+Z # stops the current command, resume with fg in the foreground or bg in the background
+```
 # SHELL TUTORIALS PROPER
 #### WHAT IS SHELL
 Shell takes commands from the keyboard and give them to the operating system to perform. Shells are known as command line interface. CLI's
@@ -116,11 +122,18 @@ This command is typed followed by the pathname we would like to move in or the d
 "A pathname is the route we take along the branches of the tree to get to the directory we want; There are two pathnames that can be specified
 * Absolute Pathnames: They begin with the root directory and then follows branch by branch until the path to the diretory desired is completed.
 * Relative Pathnames: They start from the working directory and they use special notations to represent relative positions in the file system tree. (."Dot" .."Dot Dot")
-	* cd /usr/bin - a typical example of absolute pathname
-	* cd . or cd .. - a typical example of relative pathname
-It is expedient to note that the (dot dot) allows you to return one directory backwards to the parent directory. You can return to a previous directory by using an absolute pathname like "cd /usr 'This is good if you still know the name of the directory you are returning to.
+```
+cd /usr/bin - a typical example of absolute pathname
+cd . or cd .. - a typical example of relative pathname
+```
+It is expedient to note that the (dot dot) allows you to return one directory backwards to the parent directory. You can return to a previous directory by using an absolute pathname like
+```
+"cd /usr 'This is good if you still know the name of the directory you are returning to.
+```
 * You can also move into a directory with the relative pathname.
-	* cd ./bin (this eludes everyother step and moves into the directory named.
+```
+cd ./bin (this eludes everyother step and moves into the directory named.
+```
 Take Note: Though Linux supports long file names which may contain embedded spaces and punctuation characters, limit the punctuation characters to period, dash, and underscore. Most importantly, do not embed spaces in file names. If you want to represent spaces between words in a file name, use underscore characters. You will thank yourself later.
 #### LS (LIST)
 This command lists the name of files and directory in a working directory this means, if we are in an active directory called 'Smart" and there are directories in them with some files, the only way to know them is by listing them with a special notation.
@@ -133,11 +146,6 @@ We will be looking into certain commands that will help us access certain things
 * file (Classify a file's contents)
 
 #### LS (LIST)
+```
 This command is used to list contents of a directory.
-The 'LS' can be used in different ways but to mention a few here are they:
-|-----------------------------------------+-------------------------------------------|
-|                  COMMAND                | RESULT                                     |
-|-----------------------------------------+-------------------------------------------|
-| Blade Runner                            | Like tears in the rain                    |
-| Monty Python's quest for the holy grail | Are you suggesting that coconuts migrate? |
-|-----------------------------------------+-------------------------------------------|
+The 'LS' can be used in different ways but to mention a few here are they.
