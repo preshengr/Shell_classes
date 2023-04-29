@@ -135,12 +135,9 @@ We will be looking into certain commands that will help us access certain things
 #### LS (LIST)
 This command is used to list contents of a directory.
 The 'LS' can be used in different ways but to mention a few here are they:
-||
-| COMMAND | RESULT|
-||
-| ls | List the files in the working directory |
-| ls /bin | List the files in the /bin directory (or any othere directory you need to specify |
-| ls -l | List the files in the working directory in long format |
-| ls -l /etc /bin | List the files in the /bin directory and the /etc directory in long format |
-| ls -l . . | List the files (even ones with names beginning with a period character, which are normally hidden) in the parent of the working directory in long format |
-||
+|-----------------------------------------+-------------------------------------------|
+|                  COMMAND                | RESULT                                     |
+|-----------------------------------------+-------------------------------------------|
+| Blade Runner                            | Like tears in the rain                    |
+| Monty Python's quest for the holy grail | Are you suggesting that coconuts migrate? |
+|-----------------------------------------+-------------------------------------------|
