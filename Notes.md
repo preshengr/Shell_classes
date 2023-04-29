@@ -113,3 +113,9 @@ The 'pwd' Command allows you to print the current working directory. it is very 
 #### CD (CHANGE DIRECTORY)
 The 'cd' command is used to change working directory either forward or backward depending on where you want to be at a given time.
 This command is typed followed by the pathname we would like to move in or the directory we would like to work in.
+"A pathname is the route we take along the branches of the tree to get to the directory we want; There are two pathnames that can be specified
+* Absolute Pathnames: They begin with the root directory and then follows branch by branch until the path to the diretory desired is completed.
+* Relative Pathnames: They start from the working directory and they use special notations to represent relative positions in the file system tree. (."Dot" .."Dot Dot")
+	* cd /usr/bin - a typical example of absolute pathname
+	* cd . or cd .. - a typical example of relative pathname
+It is expedient to note that the (dot dot) allows you to return one directory backwards to the parent directory.
