@@ -154,3 +154,8 @@ The 'LS' can be used in different ways but to mention a few here are they.
 | ls /bin | List the files in the /bin directory (or any other directory that needs to be specified) |
 | ls -l | List the files in the working directory in long format |
 | ls -l /etc /bin | List the files in the /bin directory and the /etc directory in logn format |
+| ls -la . . | List all files (even ones with names beginning with a period character, which are normally hiddem) in the parent of the working directory in long format. |
+```
+Some commands  use extra arguments to handle certain issues like:
+command -options arguments
+```
