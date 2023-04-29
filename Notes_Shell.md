@@ -130,7 +130,7 @@ It is expedient to note that the (dot dot) allows you to return one directory ba
 ```
 "cd /usr 'This is good if you still know the name of the directory you are returning to.
 ```
-* You can also move into a directory with the relative pathname.
+You can also move into a directory with the relative pathname.
 ```
 cd ./bin (this eludes everyother step and moves into the directory named.
 ```
@@ -141,9 +141,9 @@ This command lists the name of files and directory in a working directory this m
 This command lists the name of directories and files but also lists the hidden files and directories also.
 # LOOKING AROUND
 We will be looking into certain commands that will help us access certain things on the linux system.
-* ls (list files and directories)
-* Less (view test files)
-* file (Classify a file's contents)
+* LS (list files and directories)
+* LESS (view test files)
+* FILE (Classify a file's contents)
 
 #### LS (LIST)
 ```
