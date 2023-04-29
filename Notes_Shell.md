@@ -148,6 +148,12 @@ We will be looking into certain commands that will help us access certain things
 #### LS (LIST)
 This command is used to list contents of a directory.
 The 'LS' can be used in different ways but to mention a few here are they.
+| COMMAND | RESULT |
+| ------- | ------ |
+| ls      | List the files in the working directory |
+| ------- | ------ |
+#######
+
 | Tasks | Files | Description |
 | ----- | ----- | ------ |
 | 0: Authors/README File | [AUTHORS](https://github.com/justinmajetich/AirBnB_clone/blob/dev/AUTHORS) | Project authors |
