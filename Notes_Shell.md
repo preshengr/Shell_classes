@@ -6,15 +6,15 @@ git config user.name "New Name"
 ### SOME WORKABLE COMMANDS NEEDED FOR PERFORMANCE IN SHELL
 | COMMAND | DESCRIPTION |
 | ------- | ----------- |
-| awk | pattern scanning and processing language |
-| basename | strip directory and suffix from filenames |
+|awk|pattern scanning and processing language |
+|basename|strip directory and suffix from filenames|
 |bg |resumes suspended jobs without bringing them to the foreground|
 |cat|print files|
 |cd|change the shell working directory.|
-chmod # change file mode
-chown # change file owner and group
-crontab # maintain crontab files
-curl # transfer a URL
+|chmod|change file mode|
+|chown|change file owner and group|
+|crontab|maintain crontab files|
+|curl|transfer a URL|
 cut # remove sections from each line of files
 date # display or set date and time
 dig # DNS lookup utility
