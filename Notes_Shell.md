@@ -15,12 +15,12 @@ git config user.name "New Name"
 |chown|change file owner and group|
 |crontab|maintain crontab files|
 |curl|transfer a URL|
-cut # remove sections from each line of files
-date # display or set date and time
-dig # DNS lookup utility
-df # report file system disk space usage
-diff # compare files line by line
-du # estimate file space usage
+|cut|remove sections from each line of files|
+|date|display or set date and time|
+|dig|DNS lookup utility|
+|df|report file system disk space usage|
+|diff|compare files line by line|
+|du|estimate file space usage|
 echo # display a line of text
 find # search for files in a directory hierarchy
 fg # resumes suspended jobs and bring them to the foreground
