@@ -9,8 +9,8 @@ git config user.name "New Name"
 | awk | pattern scanning and processing language |
 | basename | strip directory and suffix from filenames |
 |bg |resumes suspended jobs without bringing them to the foreground|
-cat # print files
-cd # change the shell working directory.
+|cat|print files|
+|cd|change the shell working directory.|
 chmod # change file mode
 chown # change file owner and group
 crontab # maintain crontab files
