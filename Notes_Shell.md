@@ -4,8 +4,9 @@
 git config user.name "New Name"
 ```
 ### SOME WORKABLE COMMANDS NEEDED FOR PERFORMANCE IN SHELL
-```
-awk # pattern scanning and processing language
+| COMMAND | DESCRIPTION |
+| ------- | ----------- |
+| awk | pattern scanning and processing language |
 basename # strip directory and suffix from filenames
 bg # resumes suspended jobs without bringing them to the foreground
 cat # print files
