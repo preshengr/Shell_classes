@@ -7,8 +7,8 @@ git config user.name "New Name"
 | COMMAND | DESCRIPTION |
 | ------- | ----------- |
 | awk | pattern scanning and processing language |
-basename # strip directory and suffix from filenames
-bg # resumes suspended jobs without bringing them to the foreground
+| basename | strip directory and suffix from filenames |
+|bg |resumes suspended jobs without bringing them to the foreground|
 cat # print files
 cd # change the shell working directory.
 chmod # change file mode
