@@ -77,7 +77,7 @@ git config user.name "New Name"
 ```
 | SHORTCUT | DESCRIPTION |
 | -------- | ----------- |
-|CTRL+A | go to beginning of line|
+| CTRL+A | go to beginning of line |
 CTRL+B # moves backward one character
 CTRL+C # stops the current command
 CTRL+D # deletes one character backward or logs out of current session
