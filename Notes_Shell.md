@@ -159,5 +159,17 @@ The 'LS' can be used in different ways but to mention a few here are they.
 | ls -la . . | List all files (even ones with names beginning with a period character, which are normally hiddem) in the parent of the working directory in long format. |
 ```
 Some commands  use extra arguments to handle certain issues like:
-command -options arguments
+command -options arguments, a typical instance is this command:
+"ls -l .."
+Where command is the name of the command, -options is one or more adjustments to the command's behavior, and arguments is one or more "things" upon which the command operates.
 ```
+#### LESS
+This a program that allows you view text files in the linux enviroment.
+* Computers do not understand text files or documents, they only understand numbers and so they use certain systems to display text contents to humans, one of such is called the ASCII (AS-KEY). It is said to be an acronym for  "AMERCIAN STANDARD CODE for INFORMATION INTERCHANGE".
+	It is expedient to know that text is a simple 1 to 1 mapping of characters to numbers. twenty characters of text translates to twenty bytes of data.
+
+The less command is invoked by simply typing:
+``` less text_file```
+This means LESS is the command and "TEXT_FILE" is the name of the text_file you want to view its text content.
+
+imagine having a file named 'Notes_from_school' and you want to view its contents, the simple way to do it is by typing the less command to display the contents of the file.
