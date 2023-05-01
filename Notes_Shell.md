@@ -90,8 +90,7 @@ CTRL+T -> transposes two characters
 CTRL+U -> kills backward to the beginning of line
 CTRL+W -> kills the word behind the cursor
 CTRL+Y -> retrieves last deleted string
-CTRL+Z -> stops the current command, resume with fg in the foreground
-or bg in the background
+CTRL+Z -> stops the current command, resume with fg in the foreground or bg in the background
 ```
 # SHELL TUTORIALS PROPER
 #### WHAT IS SHELL
