@@ -64,14 +64,14 @@ git config user.name "New Name"
 |uptime | show how long system has been running|
 |w | Show who is logged on and what they are doing|
 |whereis | locate the binary, source, and manual page files for a command|
-which # locate a command
-wc # print newline, word, and byte counts for each file
-xargs # build and execute command lines from standard input
-| # redirect standard output to another command
-~> # redirect standard output
-< # redirect standard input
-& # send process to background
-```
+|which | locate a command|
+|wc | print newline, word, and byte counts for each file|
+|xargs | build and execute command lines from standard input|
+| | | redirect standard output to another command|
+|~> | redirect standard output|
+| < | redirect standard input|
+| & | send process to background|
+
 ### IMPORTANT SHORCUTS
 ```
 CTRL+A # go to beginning of line
