@@ -195,15 +195,15 @@ Here is a list of options on how to use the 'Less' Command.
 File command, examines a file and tells us what kind if file it is. 
 ``` file name_of_file```
 Files that are recognised by the 'File command'
-	* ASCII text
-	* Bourne-Again Shell Script Text
-	* ELF 64-bit LSB executable
-	* ELF 64-bit LSB shared object
-	* GNU tar archive
-	* gzip compressed data
-	* html document text
-	* JPEG image data
-	* PostScript document text
-	* Zip archive data
+* ASCII text
+* Bourne-Again Shell Script Text
+* ELF 64-bit LSB executable
+* ELF 64-bit LSB shared object
+* GNU tar archive
+* gzip compressed data
+* html document text
+* JPEG image data
+* PostScript document text
+* Zip archive data
 
 # IN LINUX THERE ARE NO SECRETS #
