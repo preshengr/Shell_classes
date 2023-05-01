@@ -75,6 +75,8 @@ git config user.name "New Name"
 ```\ -> This symbol is called the escape character which allows you to insert certain characters in your text and they will not be interpreted by the shell as command ```
 ### IMPORTANT SHORCUTS
 ```
+| SHORTCUT | DESCRIPTION |
+| -------- | ----------- |
 |CTRL+A | go to beginning of line|
 CTRL+B # moves backward one character
 CTRL+C # stops the current command
