@@ -187,6 +187,6 @@ Here is a list of options on how to use the 'Less' Command.
 | G | Got ot the end of the text file |
 | 1G | Go to the beginning of the text file |
 | /Characters | Search forward in the text fil for an occurence of the specified characters |
-| n | Repeat the previous search
+| n | Repeat the previous search |
 | h | Dispaly a complete list less commands and options |
 | q | Quit. |
