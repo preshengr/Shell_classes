@@ -179,3 +179,7 @@ Less displays text contents in pages and this makes it possinle to handle its di
 To control the contents of the less file you will have to use certain buttons like:
 'PAGE UP KEYS' and the "PAGE DOWN KEYS'. this allows you move through the pages 
 When we want to exit the text page we press 'Q'.
+| COMMAND | ACTION |
+| ------- | ------ |
+| Page Up or b | Scroll back one page |
+| Page down or space | Scroll forward one page |
