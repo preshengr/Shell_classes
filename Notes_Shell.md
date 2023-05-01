@@ -71,7 +71,7 @@ git config user.name "New Name"
 |~> | redirect standard output|
 | < | redirect standard input|
 | & | send process to background|
-
+```\ -> This symbol is called the escape character which allows you to insert certain characters in your text and they will not be interpreted by the shell as command ```
 ### IMPORTANT SHORCUTS
 ```
 CTRL+A # go to beginning of line
