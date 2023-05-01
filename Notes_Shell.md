@@ -190,3 +190,8 @@ Here is a list of options on how to use the 'Less' Command.
 | n | Repeat the previous search |
 | h | Dispaly a complete list less commands and options |
 | q | Quit. |
+
+#### FILE ####
+File command, examines a file and tells us what kind if file it is. 
+``` file name_of_file```
+# IN LINUX THERE ARE NO SECRETS #
