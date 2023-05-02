@@ -208,6 +208,6 @@ Files that are recognised by the 'File command'
 
 # IN LINUX THERE ARE NO SECRETS #
 
-#### NOTE
+#### NOTE: ####
 There are strange files in the linux enviroment that are called "Symbolic Links".
 _Symbolic Links_ are a special type of file that points to another file.
