@@ -206,7 +206,7 @@ Files that are recognised by the 'File command'
 * PostScript document text
 * Zip archive data
 
-# IN LINUX THERE ARE NO SECRETS #
+*_IN LINUX THERE ARE NO SECRETS_*
 
 #### NOTE: ####
 There are strange files in the linux enviroment that are called "Symbolic Links".
