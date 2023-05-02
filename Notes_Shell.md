@@ -207,3 +207,7 @@ Files that are recognised by the 'File command'
 * Zip archive data
 
 # IN LINUX THERE ARE NO SECRETS #
+
+#### NOTE
+There are strange files in the linux enviroment that are called "Symbolic Links".
+_A Symbolic Link_ are a special type of file that points to another file.
