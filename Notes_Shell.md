@@ -215,3 +215,11 @@ _Symbolic Links_ are a special type of file that points to another file.
 #### MANIPULATING FILES
 One may ask why cant i use the GUI (Graphical User interface) to solve my command problems but the truth is that using the command line allows you to exercise your power and flexibilty.
 In manipulating files there are certain commnads that helps us gee those issues resolved; Commnads like: CP, MV , RM MKDIR
+
+CP: this means Copy files and Directories
+MV: Move or rename files and directories
+RM: Remove files and directories
+MKDIR: create Directories.
+
+_These are meanings for basic commands used for manipulating files and directories.
+*WILDCARDS*
