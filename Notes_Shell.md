@@ -222,4 +222,7 @@ In manipulating files there are certain commnads that helps us get those issues 
  - MKDIR: create Directories.
 
 _These are meanings for basic commands used for manipulating files and directories._
-*WILDCARDS*: they are special characters whihc allows to selecte file-names based on patterns of characters. Here are summary of te
+*WILDCARDS*: they are special characters whihc allows to selecte file-names based on patterns of characters. Here are summary of wildcards and their meanings:
+| *Wildcard* | *Meaning* |
+| ---------- | --------- |
+| * | Matches any characters |
