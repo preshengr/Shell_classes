@@ -226,3 +226,6 @@ _These are meanings for basic commands used for manipulating files and directori
 | *Wildcard* | *Meaning* |
 | ---------- | --------- |
 | * | Matches any characters |
+| ? | Matches any single character |
+| [characters] | Matches any character that is a member of the set characters. The set of characters may be expressed as a POSIX (*Portable Operating System Interface*) |
+
