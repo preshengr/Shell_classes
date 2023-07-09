@@ -245,7 +245,9 @@ mv /test/master /test/my_test_dir: The 'mv' is the _move-command_ then followed 
 * /test-the second directory which indicates where the file is going.
 * /my_test_dir - the last destination for the moved file.
 
-all this well placed will produce the expected result of moving a file from one directory to another.```
+all this well placed will produce the expected result of moving a file from one directory to another.
+```
+
 ### SOMETHING TO ADD
 ```
 #!/bin/bash
@@ -263,4 +265,3 @@ echo "Symbolic link created!"
 The ln command with the -s option is used to create a symbolic link. The "$source_file" represents the source file, and "$destination_file" represents the destination where the symbolic link will be created.
 
 After running the script, it will create a symbolic link from the source_file to the destination_file, and you will see the "Symbolic link created!" message printed on the terminal.
-
