@@ -246,6 +246,7 @@ mv /test/master /test/my_test_dir: The 'mv' is the _move-command_ then followed 
 * /my_test_dir - the last destination for the moved file.
 
 all this well placed will produce the expected result of moving a file from one directory to another.
+
 ```
 
 ### SOMETHING TO ADD
