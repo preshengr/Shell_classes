@@ -234,11 +234,11 @@ _These are meanings for basic commands used for manipulating files and directori
 - Did you know that: The commnad for checking how many lines you have in a file is "wc -l 'file name'".
 - The commnad to check the heading of a file is "head -n 1 'file name'".
 
-#Do You Know#
+#Do You Know
 - mv /test/master /test/my_test_dir: The 'mv' is the _move-command_ then followed by the _directory-name_ this is is where the file will move from ' ' a space is given then the command is completed by inserting the _dir_ of the _dir_ where the file is expected to be placed.
 
-*mv-the move command*
-*/test-first directory*
+_mv-the move command._
+_/test-first directory._
 */master-the second dir where the file is leaving from*
 * - the space allows you to start another section of the same command*
 */test-the second directory which indicates where the file is going
