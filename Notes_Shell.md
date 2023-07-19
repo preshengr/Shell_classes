@@ -266,3 +266,5 @@ echo "Symbolic link created!"
 The ln command with the -s option is used to create a symbolic link. The "$source_file" represents the source file, and "$destination_file" represents the destination where the symbolic link will be created.
 
 After running the script, it will create a symbolic link from the source_file to the destination_file, and you will see the "Symbolic link created!" message printed on the terminal.
+
+
