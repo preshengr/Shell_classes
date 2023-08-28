@@ -1,7 +1,5 @@
-# SMART GRABS BELOW
-### HOW TO CHANGE YOUR NAME FROM THE COMMAND LINE TO GITHUB
-```
-git config user.name "New Name"
+# MY_NOTES
+
 ```
 ### SOME WORKABLE COMMANDS NEEDED FOR PERFORMANCE IN SHELL
 | COMMAND | DESCRIPTION |
@@ -248,23 +246,3 @@ mv /test/master /test/my_test_dir: The 'mv' is the _move-command_ then followed 
 all this well placed will produce the expected result of moving a file from one directory to another.
 
 ```
-
-### SOMETHING TO ADD
-```
-#!/bin/bash
-
-# Create a symbolic link from source_file to destination_file
-source_file="/path/to/source/file"
-destination_file="/path/to/destination/file"
-
-ln -s "$source_file" "$destination_file"
-
-echo "Symbolic link created!"
-```
--> In this example, you need to specify the source_file variable with the path to the file you want to create a symbolic link for, and the destination_file variable with the desired path and name of the symbolic link.
-
-The ln command with the -s option is used to create a symbolic link. The "$source_file" represents the source file, and "$destination_file" represents the destination where the symbolic link will be created.
-
-After running the script, it will create a symbolic link from the source_file to the destination_file, and you will see the "Symbolic link created!" message printed on the terminal.
-
-
