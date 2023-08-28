@@ -229,7 +229,3 @@ _These are meanings for basic commands used for manipulating files and directori
 | ? | Matches any single character |
 | [characters] | Matches any character that is a member of the set characters. The set of characters may be expressed as a POSIX (*Portable Operating System Interface*).|
 |	| | ---------- | ---------- | [:alnum: |
-
-### FINDINGS
-- Did you know that: The commnad for checking how many lines you have in a file is "wc -l 'file name'".
-- The commnad to check the heading of a file is "head -n 1 'file name'".
