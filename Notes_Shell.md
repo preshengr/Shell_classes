@@ -227,7 +227,7 @@ _These are meanings for basic commands used for manipulating files and directori
 | ---------- | --------- |
 | * | Matches any characters |
 | ? | Matches any single character |
-| [characters] | Matches any character that is a member of the set characters. The set of characters may be expressed as a POSIX (*Portable Operating System Interface*).character class such as one of the following:| [:alnum:] | Alphanumeric characters |
+| [characters] | Matches any character that is a member of the set characters. The set of characters may be expressed as a POSIX (*Portable Operating System Interface*).character class such as one of the following:|| [:alnum:] | Alphanumeric characters |
 | [:alpha:] | Alphabetic characters |
 | [:digit:] | Numerals |
 | [:upper:] | Uppercase alphabetic characters |
