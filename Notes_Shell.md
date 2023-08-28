@@ -68,10 +68,11 @@
 |~> | redirect standard output|
 | < | redirect standard input|
 | & | send process to background.|
-
-```\ -> This symbol is called the escape character which allows you to insert certain characters in your text and they will not be interpreted by the shell as command ```
-### IMPORTANT SHORCUTS
 ```
+\ -> This symbol is called the escape character which allows you to insert certain characters in your text and they will not be interpreted by the shell as command.
+```
+
+### IMPORTANT SHORCUTS
 CTRL+A -> go to beginning of line 
 CTRL+B -> moves backward one character
 CTRL+C -> stops the current command
@@ -90,6 +91,7 @@ CTRL+Y -> retrieves last deleted string
 CTRL+Z -> stops the current command, resume with fg in the foreground or bg in the background
 
 # SHELL TUTORIALS PROPER
+
 #### WHAT IS SHELL
 Shell takes commands from the keyboard and give them to the operating system to perform. Shells are known as command line interface. CLI's
 
@@ -139,7 +141,6 @@ Take Note: Though Linux supports long file names which may contain embedded spac
 This command lists the name of files and directory in a working directory this means, if we are in an active directory called 'Smart" and there are directories in them with some files, the only way to know them is by listing them with a special notation.
 	* ls -a
 This command lists the name of directories and files but also lists the hidden files and directories also.
-
 # LOOKING AROUND
 We will be looking into certain commands that will help us access certain things on the linux system.
 * LS (list files and directories)
@@ -234,6 +235,7 @@ _These are meanings for basic commands used for manipulating files and directori
 - The commnad to check the heading of a file is "head -n 1 'file name'".
 
 # Do You Know
+```
 mv /test/master /test/my_test_dir: The 'mv' is the _move-command_ then followed by the _directory-name_ this is is where the file will move from ' ' a space is given then the command is completed by inserting the _dir_ of the _dir_ where the file is expected to be placed.
 
 * mv-the move command.
@@ -244,3 +246,5 @@ mv /test/master /test/my_test_dir: The 'mv' is the _move-command_ then followed 
 * /my_test_dir - the last destination for the moved file.
 
 all this well placed will produce the expected result of moving a file from one directory to another.
+
+```
