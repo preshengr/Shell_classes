@@ -168,7 +168,9 @@ This a program that allows you view text files in the linux enviroment.
 	It is expedient to know that text is a simple 1 to 1 mapping of characters to numbers. twenty characters of text translates to twenty bytes of data.
 
 The less command is invoked by simply typing:
-``` less text_file```
+```
+less text_file
+```
 This means LESS is the command and "TEXT_FILE" is the name of the text_file you want to view its text content.
 
 imagine having a file named 'Notes_from_school' and you want to view its contents, the simple way to do it is by typing the less command to display the contents of the file.
@@ -179,6 +181,7 @@ To control the contents of the less file you will have to use certain buttons li
 'PAGE UP KEYS' and the "PAGE DOWN KEYS'. this allows you move through the pages 
 When we want to exit the text page we press 'Q'.
 Here is a list of options on how to use the 'Less' Command.
+
 | COMMAND | ACTION |
 | ------- | ------ |
 | Page Up or b | Scroll back one page |
