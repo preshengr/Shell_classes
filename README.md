@@ -1,4 +1,3 @@
-```markdown
 # Project: Shell Tutorials
 
 Welcome to the Shell Tutorials project! This project is designed to provide you with a comprehensive guide to understanding and working with Unix/Linux shell scripting. Whether you're a beginner looking to learn the basics or an experienced user aiming to deepen your knowledge, these tutorials will help you navigate the world of shell scripting.
@@ -49,6 +48,3 @@ This project is licensed under the [Creative Commons Attribution 4.0 Internation
 ---
 
 Happy learning and happy scripting!
-```
-
-Remember to customize the content to accurately represent your Shell Tutorials project. You can include more sections or details as needed.
