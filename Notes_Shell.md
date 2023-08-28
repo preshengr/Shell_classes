@@ -68,11 +68,10 @@
 |~> | redirect standard output|
 | < | redirect standard input|
 | & | send process to background.|
+```\ -> This symbol is called the escape character which allows you to insert certain characters in your text and they will not be interpreted by the shell as command.
 ```
-\ -> This symbol is called the escape character which allows you to insert certain characters in your text and they will not be interpreted by the shell as command.
+### IMPORTANT_SHORCUTS
 ```
-
-### IMPORTANT SHORCUTS
 CTRL+A -> go to beginning of line 
 CTRL+B -> moves backward one character
 CTRL+C -> stops the current command
@@ -89,7 +88,7 @@ CTRL+U -> kills backward to the beginning of line
 CTRL+W -> kills the word behind the cursor
 CTRL+Y -> retrieves last deleted string
 CTRL+Z -> stops the current command, resume with fg in the foreground or bg in the background
-
+```
 # SHELL TUTORIALS PROPER
 
 #### WHAT IS SHELL
