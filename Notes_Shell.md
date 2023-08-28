@@ -172,7 +172,7 @@ The less command is invoked by simply typing:
 This means LESS is the command and "TEXT_FILE" is the name of the text_file you want to view its text content.
 
 imagine having a file named 'Notes_from_school' and you want to view its contents, the simple way to do it is by typing the less command to display the contents of the file.
-
+```
 #### CONTROLLING THE LESS DISPLAY
 Less displays text contents in pages and this makes it possinle to handle its display in a simple form.
 To control the contents of the less file you will have to use certain buttons like:
@@ -192,7 +192,9 @@ Here is a list of options on how to use the 'Less' Command.
 
 #### FILE ####
 File command, examines a file and tells us what kind if file it is. 
-``` file name_of_file```
+```
+file name_of_file
+```
 Files that are recognised by the 'File command'
 * ASCII text
 * Bourne-Again Shell Script Text
@@ -206,10 +208,6 @@ Files that are recognised by the 'File command'
 * Zip archive data
 
 *_IN LINUX THERE ARE NO SECRETS_*
-
-#### NOTE: ####
-There are strange files in the linux enviroment that are called "Symbolic Links".
-_Symbolic Links_ are a special type of file that points to another file.
 
 #### MANIPULATING FILES
 One may ask why cant i use the GUI (Graphical User interface) to solve my command problems but the truth is that using the command line allows you to exercise your power and flexibilty.
@@ -232,18 +230,3 @@ _These are meanings for basic commands used for manipulating files and directori
 ### FINDINGS
 - Did you know that: The commnad for checking how many lines you have in a file is "wc -l 'file name'".
 - The commnad to check the heading of a file is "head -n 1 'file name'".
-
-# Do You Know
-```
-mv /test/master /test/my_test_dir: The 'mv' is the _move-command_ then followed by the _directory-name_ this is is where the file will move from ' ' a space is given then the command is completed by inserting the _dir_ of the _dir_ where the file is expected to be placed.
-
-* mv-the move command.
-* /test-first directory.
-* /master-the second dir where the file is leaving from.
-* - the space allows you to start another section of the same command.
-* /test-the second directory which indicates where the file is going.
-* /my_test_dir - the last destination for the moved file.
-
-all this well placed will produce the expected result of moving a file from one directory to another.
-
-```
