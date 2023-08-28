@@ -174,7 +174,7 @@ less text_file
 This means LESS is the command and "TEXT_FILE" is the name of the text_file you want to view its text content.
 
 imagine having a file named 'Notes_from_school' and you want to view its contents, the simple way to do it is by typing the less command to display the contents of the file.
-```
+
 #### CONTROLLING THE LESS DISPLAY
 Less displays text contents in pages and this makes it possinle to handle its display in a simple form.
 To control the contents of the less file you will have to use certain buttons like:
