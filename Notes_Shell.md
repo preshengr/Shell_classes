@@ -258,3 +258,6 @@ This other CP usage that helps
 | _Command_ | _Results_ |
 | --------- | --------- |
 | cp file1 file2 | Copies the contents of file1 into file2. if there is no file2 it is created. |
+| cp -i file1 file2 | user is prompted before content is overwritten. |
+| cp file1 dir1 | copy file1 contents into the same file name in the named directory. |
+| cp -R dir1 dir2 | copy the dir1 contents and if dir2 is not created it creates it or it will create dir1 inside dir2. |
