@@ -242,4 +242,19 @@ _These are meanings for basic commands used for manipulating files and directori
 | g* | All filenames that begin with the character "g" | b*.txt | All filenames that begin with the character "b" and end with the characters ".txt" |
 | Data??? | Any filename that begins with the characters "Data" followed by exactly 3 more characters |
 | [abc]* | Any filename that begins with "a" or "b" or "c" followed by any other characters |
-|
+| [[:upper:]]* | Any filename that begins with an uppercase letter. This is an example of a character class. |
+| BACKUP.[[:digit:]] [[:digit:]] | Another example of character classes. This pattern matches any file that begins with the characters "BACKUP". followed by exactly two numerals. |
+| *[!]:lower:]] | Any file that does not end with a lowercase letter. |
+*wildcards can be used with any commands that accepts filename arbuments.*
+
+### CP: Copy
+This copies a single file but can also copy multiple files also.
+```
+cp file1 file2
+or
+cp file... directory
+```
+This other CP usage that helps
+| _Command_ | _Results_ |
+| --------- | --------- |
+| cp file1 file2 | Copies the contents of file1 into file2. if there is no file2 it is created. |
