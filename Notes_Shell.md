@@ -314,3 +314,41 @@ You can combine commands with wildcards and they are done as follows
 | cp *.txt text_files | This command will copy all the files in the working directory with '.txt' as its extnsion to a directory called text_files |
 | mv dir1 ../*.bak dir2 | This command Move the subdirectory dir1 and all the files ending in ".bak" in the current working directory's parent directory to an existing directory named dir2. |
 | rm *~ | Delete all files in the current working directory that end with the character "~". Some applications create backup files using this naming scheme. Using this command will clean them out of a directory. |
+
+# WORKING WITH COMMANDS
+You can work with certain commands and they are;
+	* Type - Displays information about a command
+	* Which - Locates a command
+	* Help - Display reference page for shell builtin
+	* Man - Displays an on-line command reference.
+
+### What are "Commands?"
+Commands are divided into 4 kinds
+1. An executable program: these are like files in /usr/bin that we saw earlier. Here binary programs wirtten in C and C++ or programs written in script languages like the Shell, Perl, Python, Ruby etc are found.
+2. Built in Commands in shell: these commands are called shell builtins. The *mv* command is a shell builtin.
+3. Shell Function: they are shell scripts incorporated inot the enviroment.
+4. An Alias: These are commands that we can define ourselves and they are mostly built from other commands.
+
+### IDENTIFYING COMMANDS
+_Type: This command is a shell builtin command._ It can be used as follows:
+```
+type command (this is the command name we would like to examine.)
+ANOTHER INSTANCE
+type type
+type ls
+type cp
+```
+_Which: We use this to locate the exact position of an executable_ It can be used in the following ways:
+```
+which ls
+```
+_Which only works for executable programs not aliases and builtins. The reason is that these are substitutes for actual executable programs._
+
+### Getting Command Documentation
+_Help: is a command that came with the shell, so using it is so simple_
+```
+help cd
+Which will make if run a complete detail about the command.
+You can add -m to change the output format. for instance:
+help -m cd
+```
