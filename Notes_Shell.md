@@ -274,4 +274,9 @@ mv filename1 filename2
 To move a file:
 mv file1... directory
 ```
-
+| *Command* | *Results* |
+| --------- | --------- |
+| mv file1 file2 | if file2 does not exist file1 is renamed but if file2 exists then its contents are replaced silently. |
+| mv -i file1 file2 | (-i means interactive) this means it will prompt the user before any action |
+| mv file1 file2 dir1 | files file1 & file2 are moved to dir1, if dir1 is not in existence an error will be displayed. |
+|mv dir1 dir2 | if dir2 does not exist dir1 is renamed and if it does exist dir1 is moved into dir2 |
