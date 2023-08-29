@@ -236,7 +236,7 @@ _These are meanings for basic commands used for manipulating files and directori
 | [!characters] | Matches any character that is not a member of the set characters |
 
 *_Summary of wildcards and their meanings_*
-| *Pattern | *Matches* |
+| *Pattern* | *Matches* |
 | -------- | --------- |
 | * | All Filenames |
 | g* | All filenames that begin with the character "g" | b*.txt | All filenames that begin with the character "b" and end with the characters ".txt" |
