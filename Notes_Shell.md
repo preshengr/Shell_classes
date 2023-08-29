@@ -227,9 +227,19 @@ _These are meanings for basic commands used for manipulating files and directori
 | ---------- | --------- |
 | * | Matches any characters |
 | ? | Matches any single character |
-| [characters] | Matches any character that is a member of the set characters. The set of characters may be expressed as a POSIX (*Portable Operating System Interface*).character class such as one of the following:| | ------ | ------- |
+| [characters] | Matches any character that is a member of the set characters. The set of characters may be expressed as a POSIX (*Portable Operating System Interface*).character class such as one of the following:|
 | [:alnum:] | Alphanumeric characters |
 | [:alpha:] | Alphabetic characters |
 | [:digit:] | Numerals |
 | [:upper:] | Uppercase alphabetic characters |
-| [:lower:] | Lowercase alphabetic characters ||
+| [:lower:] | Lowercase alphabetic characters |
+| [!characters] | Matches any character that is not a member of the set characters |
+
+*_Summary of wildcards and their meanings_*
+| *Pattern | *Matches* |
+| -------- | --------- |
+| * | All Filenames |
+| g* | All filenames that begin with the character "g" | b*.txt | All filenames that begin with the character "b" and end with the characters ".txt" |
+| Data??? | Any filename that begins with the characters "Data" followed by exactly 3 more characters |
+| [abc]* | Any filename that begins with "a" or "b" or "c" followed by any other characters |
+|
