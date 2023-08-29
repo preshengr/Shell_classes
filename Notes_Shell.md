@@ -280,3 +280,37 @@ mv file1... directory
 | mv -i file1 file2 | (-i means interactive) this means it will prompt the user before any action |
 | mv file1 file2 dir1 | files file1 & file2 are moved to dir1, if dir1 is not in existence an error will be displayed. |
 |mv dir1 dir2 | if dir2 does not exist dir1 is renamed and if it does exist dir1 is moved into dir2 |
+
+### RM: Remove
+This removes or deletes files and directories.
+```
+Command to remove a file
+rm file
+```
+The recursive command can also be used.
+| *Command* | *Results* |
+| --------- | --------- |
+| rm file1 file2 | Deletes file1 and 2 |
+|rm -i file1 file2 | there is a prompt befoer any file is deleted |
+| rm -r dir1 dir2 | dir1 & dir2 are deleted with all the contents in it. |
+```
+
+Be careful with rm!
+
+Linux does not have an undelete command. Once you delete something with rm, it's gone. You can inflict terrific damage on your system with rm if you are not careful, particularly with wildcards.
+
+Before you use rm with wildcards, try this helpful trick: construct your command using ls instead. By doing this, you can see the effect of your wildcards before you delete files. After you have tested your command with ls, recall the command with the up-arrow key and then substitute rm for ls in the command.
+```
+
+### MKDIR: Make Directory
+```
+The command to make a directory
+mkdir directory
+```
+### COMMANDS AND WILDCARDS
+You can combine commands with wildcards and they are done as follows
+| _Commands_ | _Results_ |
+| ---------- | --------- |
+| cp *.txt text_files | This command will copy all the files in the working directory with '.txt' as its extnsion to a directory called text_files |
+| mv dir1 ../*.bak dir2 | This command Move the subdirectory dir1 and all the files ending in ".bak" in the current working directory's parent directory to an existing directory named dir2. |
+| rm *~ | Delete all files in the current working directory that end with the character "~". Some applications create backup files using this naming scheme. Using this command will clean them out of a directory. |
