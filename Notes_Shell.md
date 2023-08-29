@@ -261,3 +261,17 @@ This other CP usage that helps
 | cp -i file1 file2 | user is prompted before content is overwritten. |
 | cp file1 dir1 | copy file1 contents into the same file name in the named directory. |
 | cp -R dir1 dir2 | copy the dir1 contents and if dir2 is not created it creates it or it will create dir1 inside dir2. |
+
+### MV: Move
+This command performes double task.
+1. it renames and same time.
+2. It moves.
+this double action is dependant on how the command is been used.
+```
+To rename a file:
+mv filename1 filename2
+
+To move a file:
+mv file1... directory
+```
+
