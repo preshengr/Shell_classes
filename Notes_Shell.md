@@ -348,7 +348,7 @@ _Which only works for executable programs not aliases and builtins. The reason i
 _Help: is a command that came with the shell, so using it is so simple_
 ```
 help cd
-Which will make if run a complete detail about the command.
+Which will make it run a complete detail about the command.
 You can add -m to change the output format. for instance:
 help -m cd
 ```
